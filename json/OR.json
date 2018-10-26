@@ -1,0 +1,40 @@
+
+{
+    
+    "testsiteurl":"https://cloudes-company-core-angular.firebaseapp.com/#!/",
+  
+    "locators":{
+
+        "homepage":{
+
+            "classnameLogin":"text-uppercase btn btn-warning text-white round-30 px-4 py-2 mr-2 ng-scope",
+            "classnameRegister":"text-uppercase btn btn-success text-white px-4 round-30 ng-scope"
+        },
+
+        "addlogin":{
+
+            "emailid":"loginEmail",
+            "password":"password",
+            "loginbutton":"LOGIN",
+            "successmessage":"div.message.ng-binding",
+            "logout": "btn btn-danger text-white px-4 py-2 ng-scope" ,
+            "invalidemail":"[ng-show='loginForm.email.$error.email']",
+            "loginsuccess":"div.message.ng-binding",
+
+            "testdata":{
+
+                "email":"bjorn@icopal.com",
+                "pword" :"Random@123",
+                "invemail":"dfjhdfjhds",
+                "loginsuccessmessage":"Login success",
+                "signoutbutton":"SIGNOUT",
+                "failedemailmessage":"Invalid email address.",
+                "failedlogin":"Invalid credential format"
+            }
+
+        }
+    
+    }
+
+
+}

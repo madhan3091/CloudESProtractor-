@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1540212904317" stop="1540212924057">
+	<name>Customer login Test </name>
+	<title>Customer login Test </title>
+	<test-cases>
+		<test-case start="1540212904318" stop="1540212924056" status="failed">
+			<name>Login as a customer</name>
+			<title>Login as a customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d00215fc-9ee9-4ddb-86df-84830683e39d-attachment.png" type="image/png" size="186368"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;CloudES&apos; to be &apos;tetewt&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at UserContext.&lt;anonymous&gt; (D:\CloudES Automation\test_spec\CustomerLoginTest_spec.js:15:20)
+    at C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\madhan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
