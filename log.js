@@ -18,7 +18,7 @@ const winston = require('winston')
           //
           new winston.transports.File({timestamp:'true'}),
           new winston.transports.File({ filename: 'error.log', level: 'error' }),
-          new winston.transports.File({ filename: 'D:/CloudES Automation/Reports/combined.log' })
+          new winston.transports.File({ filename: 'D:/git/cloudESProtractor-/Reports/combined.log' })
         ]
       });
        
