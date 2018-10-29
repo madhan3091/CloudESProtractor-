@@ -27,8 +27,8 @@
     "email": "ju.ralph@gmail.com"
   },
   "bin": {
-    "protractor": "bin/protractor",
-    "webdriver-manager": "bin/webdriver-manager"
+    "protractor": "./bin/protractor",
+    "webdriver-manager": "./bin/webdriver-manager"
   },
   "bugs": {
     "url": "https://github.com/angular/protractor/issues"
