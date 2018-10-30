@@ -7,7 +7,7 @@ function allure_report_jetty_deploy(){
     console.log('Generating allure reports from xml using Maven plugin and deploying them on port:1234 ');
     console.log('If at time there is some issue in report deployment or reports are not available');
 
-  //var sys = require('util');
+    var sys = require('util');
     var exec = require('child_process').exec;
 
     function puts(error,stdout,stderr){
@@ -35,7 +35,7 @@ function send_mail (){
 exports.config = {
 
   framework: 'jasmine2',
-  specs: ['../test_spec/Addlogininfotest_spec.js'],
+  specs: ['./test_spec/Addlogininfotest_spec.js'],
 
   onPrepare:function(){
        
@@ -75,15 +75,7 @@ exports.config = {
               resultsDir: './allure-results/'
           }
       }));
-    /*
-    jasmine.getEnv().afterEach(function(done){
-      browser.takeScreenshot().then(function (png) {
-        allure.createAttachment('Screenshot', function () {
-          return new Buffer(png, 'base64')
-        }, 'image/png')();
-        done();
-      })
-    });*/
+   
 
     //stop jetty server  if already started in previous session 
       console.log ('Stopping jetty server if any previous instance is running on port 1234.');
@@ -126,52 +118,5 @@ exports.config = {
       'browserName':'firefox'
     }
   ],
-     // framework: 'jasmine2',
-
-	  //seleniumAddress: 'http://localhost:4444/wd/hub',  
-      //seleniumAddress : 'https://cloudes-company-core-angular.firebaseapp.com/#!/',
-
-	  //specs: ['../test_spec/Addlogininfotest_spec.js'],
-
-
- /*
-  onPrepare: function () 
-  {
-       //Generate Allure Report and Capture ScreenShots
-      var AllureReporter = require('D:/CloudES Automation/node_modules/jasmine-allure-reporter');
-    jasmine.getEnv().addReporter(new AllureReporter({
-     allureReport:{
-       resultsDir: 'allure-results'
-      }
-    }));
-    jasmine.getEnv().afterEach(function(done){
-      browser.takeScreenshot().then(function (png) {
-        allure.createAttachment('Screenshot', function () {
-          return new Buffer(png, 'base64')
-        }, 'image/png')();
-        done();
-      })
-    });
-  }*/
-
-  /*
-  onPrepare:function(){
-
-      var HtmlScreenshotReporter = require('D:/CloudES Automation/node_modules/protractor-jasmine2-screenshot-reporter');
-    jasmine.getEnv().addReporter(new HtmlScreenshotReporter({
-      dest: 'D:/git/CloudESProtractor-/Reports',
-      filename: 'report.html'
-    }));
-
-  },*/
-  
- /* onComplete:function(){
-     console.log("Sending Mail with reports for the test execution.");
-     var sys = require('util')
-     var exec = require('child_process').exec;
-     function puts(error,stdout,stderr){sys.puts(stdout)}
-     exec("node mail.js",puts);
-  }
-  */
-
+     
 };

@@ -1,0 +1,44 @@
+{
+  "uid" : "a6eef3b1ed2b6614",
+  "name" : "Positive case of login",
+  "title" : "Positive case of login",
+  "time" : {
+    "start" : 1540895244210,
+    "stop" : 1540895262981,
+    "duration" : 18771
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5da1125bbf936d9c",
+    "name" : "Login in the account ",
+    "title" : "Login in the account "
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "11524d74-0221-43e1-ae82-cfaa3c253257-attachment.png",
+    "type" : "image/png",
+    "size" : 546531,
+    "uid" : "e75663c23b96e295"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login in the account "
+  }, {
+    "name" : "suite-title",
+    "value" : "Login in the account "
+  } ],
+  "parameters" : [ ]
+}

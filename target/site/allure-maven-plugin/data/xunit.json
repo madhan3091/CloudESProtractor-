@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1540896148814,
+    "stop" : 1540896178555,
+    "duration" : 29741
+  },
+  "testSuites" : [ {
+    "uid" : "883dea1f5cea691a",
+    "name" : "Login in the account ",
+    "title" : "Login in the account ",
+    "time" : {
+      "start" : 1540896148814,
+      "stop" : 1540896178555,
+      "duration" : 29741
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "fc257f7a52e3dc80",
+      "name" : "Positive case of login",
+      "title" : "Positive case of login",
+      "time" : {
+        "start" : 1540896148814,
+        "stop" : 1540896166590,
+        "duration" : 17776
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "e1084174c9816cf9",
+      "name" : "Negative case of login",
+      "title" : "Negative case of login",
+      "time" : {
+        "start" : 1540896166590,
+        "stop" : 1540896178555,
+        "duration" : 11965
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "default",
+    "threads" : [ {
+      "title" : "default",
+      "testCases" : [ {
+        "uid" : "fc257f7a52e3dc80",
+        "name" : "Positive case of login",
+        "title" : "Positive case of login",
+        "time" : {
+          "start" : 1540896148814,
+          "stop" : 1540896166590,
+          "duration" : 17776
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "e1084174c9816cf9",
+        "name" : "Negative case of login",
+        "title" : "Negative case of login",
+        "time" : {
+          "start" : 1540896166590,
+          "stop" : 1540896178555,
+          "duration" : 11965
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
