@@ -17,16 +17,16 @@
     })));
 
     console.log("SMTP Configured");
-
+/*
     var maillist=[
-        'krishna@doodleblue.com',
-        'madhan@askpundit.com',    
+        'krishna@doodleblue.com'
+        //'madhan@askpundit.com',    
     ];
     //maillist.forEach(function (to, i , array) {
     maillist.toString();
-
+*/
     var mailOptions = {
-        from: "janen@askpundit.com", // sender address
+        from: "madhan@askpundit.com", // sender address
         to: maillist, // list of receivers
         subject: "Report for Test Result", // Subject line
         text: 'contains the test result for the smoke test in html file' +

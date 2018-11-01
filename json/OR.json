@@ -32,8 +32,46 @@
                 "failedlogin":"Invalid credential format"
             }
 
+        },
+        "addregister":{
+
+           "companyname":"companyName",
+           "username" : "name",
+           "emailid"  :"registerEmail",
+           "code"     :"dialCode",
+           "Phoneno"  :"phoneNumber",
+           "textarea" :"description",
+           "address1" :"addressLine1",
+           "address2": "addressLine2",
+           "city"     : "city",
+           "postcode" : "postalCode" ,
+           "Countrycode":"countryCode",
+           "registerbutton":"btn btn-default btn-block mt-3",
+           "registerfail":"div.message.ng-binding",
+           "newemail" :"registerEmail",
+           "registersucess":"div.message.ng-binding",
+
+           "testdata1":{
+
+               "Cname":"Doodleblue",
+               "uname":"madhan",
+               "email":"madhan@askpundit.com",
+               "code" :"044",
+               "phno" :"26540346",
+               "area" : " Lorem Lipsum",
+               "ad1" : "No 19/4 ,Testpuram",
+               "ad2" :  "Gandhi street",
+               "city": "chennai",
+               "pcode":"600034",
+               "ccode" :"91",
+               "failedregister":"Email Id already registered",
+               "Newemail":"m.azeem@solbaacken.com",
+               "sucessregister":"Company created successfully. Please check your email"
+           }
+
+
+
         }
-    
     }
 
 

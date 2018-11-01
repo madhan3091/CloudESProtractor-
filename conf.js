@@ -35,7 +35,14 @@ function send_mail (){
 exports.config = {
 
   framework: 'jasmine2',
-  specs: ['./test_spec/Addlogininfotest_spec.js'],
+  specs: ['./test_spec/AddregisterInfotest.spec.js'],
+
+  //suites: {
+    //all:['./*/*.spec.js']
+    //selected:['./test_spec/Addlogininfotest.spec.js','./test_spec/CustomerLoginTest.spec.js']
+//}, 
+        
+  
 
   onPrepare:function(){
        
