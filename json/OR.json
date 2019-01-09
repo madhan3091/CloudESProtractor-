@@ -71,7 +71,241 @@
 
 
 
+        },
+        "materialinfo":{
+
+            "materialmenu":"img.material.icon",
+            "matrialcard" :"issue-info py-3 px-4 animated fadeIn wow",
+            "infotab":"a#info-tab.nav-link.active.ripple.ripple2",
+            "next":"page-link next",
+            "Editmaterial":"[ng-click='vm.editMaterialFunction(1)']",
+            "username":"vm.editMaterial.name",
+            "materialicon":"p.text-uppercase.mt-0",
+            "materialbutton":"issue-info py-3 px-4 animated fadeIn wow",
+            "unit":"btn selectbox dropdown-toggle",
+            "period":"vm.editMaterial.maintenancePeriod",
+            "supplier":"s2id_suppliers",
+            "Mdate":"form-control animated zoomIn wow ng-binding",
+            "Nexttab":"//*[@id='material1']/div[2]/button[2]",
+            "currency":"s2id_currency",
+            "conversfactor":"vm.editMaterial.conversionFactor",
+            "materialcost":"vm.materialCostValue",
+            "workercost":"vm.rooferCostValue",
+            "update":"//*[@id='dcp1']/div[2]/div/button[2]",
+            "updatemessage":"div.message.ng-binding",
+            "droplist":"li.ng-binding:nth-child(3)",
+            "currentsearch" : "s2id_autogen7_search",
+            "searchedlist":"span.select2-match",
+            "sup"       :"s2id_autogen2",
+            "sup3"        :"select2-result-label"   ,
+            "cancel": "//*[@id='material1']/div[2]/button[1]",
+            "filetab":"//*[@id='file-tab']",
+            "document":"fsize18 f500 mb-0 animated fadeInUp wow ng-binding",
+            "deletedoc":"//*[@id='material1']/div[1]/div[2]/div/div/div[2]/div/div/div/ul/li/div/div/button[1]",
+            "Nodocuments":"text-center f500 my-5 animated fadeInUp wow",
+            "Edit":"//*[@id='material1']/div[1]/div[2]/div/div/div[1]/div/div/div/ul/li/div/div/button[2]",
+            "Editinput":"//*[@id='material1']/div[1]/div[2]/div/div/div[1]/div/div/div/ul/li/div/div/div/div[2]/div/div/input",
+            "Editsave":"[ng-click='vm.addDescription(fileIndex, description)']",
+            "imgdele":"//*[@id='material1']/div[1]/div[2]/div/div/div[1]/div/div/div/ul/li/div/div/button[1]",
+            "img":"d-block w-100",
+            "download":"btn download_btn animated fadeInUp wow",
+            "downimg":"img[alt='download-icon']",
+            "addmat":"btn btn_create_issue transition ripple float-right",
+            "create":"//*[@id='dcp1']/div[2]/div/div[2]/button[2]",
+            "addname":"vm.addMaterial.materialName",
+            "addnext":"//*[@id='material1']/div[2]/div/button[2]",
+            "addperiod":"vm.addMaterial.maintenancePeriod",
+            "addconversion":"vm.addMaterial.conversionFactor",
+            "addcostvalue":"vm.addMaterial.materialCostValue",
+            "addworkvalue":"vm.addMaterial.rooferCostValue",
+            "addcancel":"//*[@id='material1']/div[2]/div/button[1]",
+
+
+        
+
+
+            "testdata2":{
+
+                "tab":"Info",
+                "sucessmessage":"Material updated successfully",
+                "sup1"       :"test supplier",
+                "docname":"Automation.pdf",
+                "Notavailable":"No documents available",
+                "empty":"null",
+                "matname":"Please select material unit"
+            }
+        },
+
+        "ToDo":{
+
+            "view":"a.mt-3.btn.btn-outline-dark.btn-sm",
+            "card":"issue-box position-relative transition animated fadeInUp wow",
+            "create":"//*[starts-with(@class,'btn btn_create_issue transition ripple')]",
+            "title":"vm.todoData.title",
+            "describe":"vm.todoData.description",
+            "calendar":"vm.todoData.date",
+            "assignedto":"vm.todoData.assignedTo",
+            "popupcreate":"[ng-click='vm.createTodoList(vm.todoData,todoCreateForm.$valid)']",
+            "todotitle":"issue-number f700 text-sm-left text-center ng-binding",
+            "tododesc":"headTwo txtblack f400 mb-0 text-sm-left text-center ng-binding",
+            "hours":"mb-0 f700 text-uppercase ng-binding",
+            "viewtitle":"//*[starts-with(@class,'f500 space40 ng-binding')]",
+            "description2":"space40 ng-binding",
+            "status":"todo-title ng-binding",
+            "viewhours":"mb-0 f700 text-uppercase ng-binding",
+            "completed":"todo-title ng-binding",
+            "popupcancel":"btn btn_create_issue ripple",
+            "viewitem":"py-1 d-block",
+            "listhours":"//*[@class='ng-binding']",
+            "invalid":"div.message.ng-binding",
+            "signout":"dropdown-menu",  
+
+            
+
+
+            "testdata3":{
+
+                "title1":"Functional testing",
+                "describe1":"simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                "calendar1":"2018/12/28 06:30:51",
+                "Assigned1":"Oliver Jensen",
+                "Assigned2":"Ragnar Lothbrok",
+                "Hours":"258 HOURS",
+                "statusmessage":"Complete In",
+                "success":"Completed",
+                "creatbutton":"Create New",
+                "Errormessage":"Please fill all the details",
+                "dropitem":"Action"
+
+            }
+        },
+
+        "MeetingRoom":{
+
+            "selectdropdown":"selectProject",
+            "selectproject":"March Project",
+            "meetingroom":"btn btn-primary btn-sm",
+            "Newmeeting":"new_meeting ripple position-relative",
+            "meetingname":"vm.newMeetingName",
+            "title":"vm.meetingTodo.title",
+            "description":"vm.meetingTodo.description",
+            "calendar":"vm.meetingTodo.date",
+            "assignedto":"vm.meetingTodo.assignedTo",
+            "create":"btn btn_create ripple position-relative",
+            "titlenew":"d-flex align-items-baseline",
+            "assclass":"form-control txt_box1 ng-untouched ng-valid select2-offscreen ng-dirty ng-valid-parse ng-empty",
+            "nameclass":"form-control txt_box animated zoomIn wow ng-valid ng-touched ng-dirty ng-valid-parse ng-not-empty",
+            "titleclass":"form-control animated zoomIn wow ng-touched ng-dirty ng-valid-parse ng-empty ng-invalid ng-invalid-required",
+            "desclass":"form-control txt_box zoomIn wow ng-valid ng-touched ng-dirty ng-valid-parse ng-empty",
+            "dateclass":"form-control date-icon txt_box1 ng-isolate-scope moment-picker-input ng-valid-min-date ng-valid-max-date ng-touched ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required",
+            "cancel":"btn btn_create ripple",
+            "invalid":"div.message.ng-binding",
+            "todoplus":"btn btn-sm task_tag ripple ripplePurple",
+            "todolist":"animated fadeInUp wow ng-binding ng-scope",
+            "docreate":"[ng-click='vm.createTodoList(vm.todoData, vm.currentChannel,todoCreateForm.$valid)']",
+            "docancel":"btn btn_create_issue ripple",
+            "todobutton":"headOne animated fadeInUp wow",
+            "titleinput":"form-control animated zoomIn wow ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched",
+            "desinput":"form-control txt_box zoomIn wow ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched",
+            "dateinput":"form-control date-icon txt_box1 ng-isolate-scope moment-picker-input ng-valid-min-date ng-valid-max-date ng-touched ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required",
+            "assignedinput":"select2-container select2-container-multi form-control txt_box1 ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse",
+            "inviteplus":"invite_member ripple",
+            "search":"vm.searchInviteMembers",
+            "checkbox":"invite.checked",
+            "dropdown":"dropdown-menu avail_option",
+            "invitebutton":"[ng-click='vm.inviteUsers(vm.currentChannel , vm.invitees)']",
+            "newmeeting":"nav-link ripple ripple2 animated fadeInUp wow ng-scope",
+            "imageview":"img-fluid",
+            "valid":"div.message.ng-binding",
+            "canpopup":"//*[@id='newmeeting_popup']/div/div/div[3]/button[1]",
+            "messagebox":"vm.messageBox",
+            "send":"btn btn-send ripple",
+            "upload":"fa fa-paperclip",
+            "browse":"vm.uploadFiles",
+            "submit":"[ng-click='vm.sendFileMessage(vm.currentChannel, vm.uploadFiles)']",
+            "close":"btn btn_cancel ripple wobble-vertical",
+            "chat":"chat_msg mb-0 whitebg_chat",
+            "timechat":"time_tag mt-1 c_space mb-0 ng-binding",
+            "sharedfile":"btn shared ripple ripplePink",
+            "sharesearch":"vm.searchFiles",
+            "sharedownload":"btn download_btn",
+            "sharedclose":"btn btn_cancel wobble-vertical",
+
+
+
+            "testdata4":{
+                            
+                "name":"Whitebox testing",
+                "name1":"management",
+                "title1":"monkey testing",
+                "describe1":"Lorem Ipsum has been the industry",
+                "calendar1":"2018/12/28 06:30:51",
+                "Assigned1":"Oliver Jensen",
+                "Assigned2":"Ragnar Lothbrok",
+                "Assigned3":"string:5895b54651d9606e24df2533",
+                "empty":"null" ,
+                "Errormessage":"Newmeeting details are missing!",
+                "todomessage":"Sanity testing",
+                "list":"Todo List",
+                "searchkey":"Demo",
+                "invitedrop":"Task1",
+                "validmess":"User(s) invited",
+                "messagetext":"hello",
+                "uploadfile":"download.jpg (Download)",
+                "time":"12/21/18 4.44 PM"
+
+            }
+
+        },
+        "Filemanager":{
+
+            "Add":"btn btn_plain float-right ripple ml-auto d-block",
+            "foldername":"//*[@id='folder']/div[1]/input",
+            "save":"//*[@id='folder']/div[2]/button[1]",
+            "close":"//*[@id='folder']/div[2]/button[2]",
+            "listfolder":"file-listing d-flex align-items-center ng-scope",
+            "valid":"div.message.ng-binding",
+            "plus":"i.fas.fa-plus-circle",
+            "uploadtab":"//*[text()='Upload Files']",
+            "folderclick":"flex-one ml-3 ng-binding",
+            "showmore":"py-2 d-block mt-auto  text-center",
+            "Add1":"//*[@id='upload']/div[2]/button[2]",
+            "close1":"//*[@id='upload']/div[2]/button[1]",
+            "valid1":"div.message.ng-binding",
+            "filestab":"//*[text()='Choose Files']",
+            "toggle":"span.slider.round",
+            "valid2":"div.message.ng-binding",
+            "searchfiles":"newTag.text",
+            "savechoose":"//*[@id='choose']/div[2]/button[1]",
+            "listfiles":"//*[@id='choose']/div[1]/tags-input/div/auto-complete/div/ul/li[3]/ti-autocomplete-match/ng-include/span",
+            "saveclose":"//*[@id='choose']/div[2]/button[2]",
+            "Assignicon":"/html/body/ui-view/section/div/div/div/div/div/div[1]/ul/li[6]/a",
+            "Assignclick":"[ng-click='vm.assignTemplate()']",
+            "Assignclose":"//*[@id='assignTemplateModal']/div/div/div[3]/button[1]",
+            "templateicon":"/html/body/ui-view/section/div/div/div/div/div/div[1]/ul/li[5]/a",
+            "tempname":"//input[@type='text']",
+            "tempsave":"//*[@id='saveTemplateModal']/div/div/div[3]/button[2]",
+            "tempclose":"//*[@id='saveTemplateModal']/div/div/div[3]/button[1]",
+
+            
+
+            "testdata5":{
+
+                "foldername":"Regression testing",
+                "successmessage":"Hirerachy saved successfully",
+                "filesuccess":"Files were added successfully",
+                "choosefiles":"File added to hierarchy",
+                "assign":"Hirerachy added to project",
+                "tempname":"Roof top",
+                "template":"Hierarchy saved as a template successfully"
+                
+
+            }
+
+
         }
+        
+        
     }
 
 
