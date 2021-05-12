@@ -48,7 +48,7 @@
     "jasmine-allure-reporter": "^1.0.1",
     "jasminewd2": "^2.1.0",
     "mongodb": "^3.1.8",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "nodemailer-smtp-transport": "^2.7.4",
     "npm": "^6.4.1",
     "optimist": "~0.6.0",
